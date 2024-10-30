@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blog-andres"
+version = "0.1.0"
+description = "Blog Andres Bermeo"
+authors = ["andresbermeoq <andresbermeoq1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13"
+wagtail = "^6.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
